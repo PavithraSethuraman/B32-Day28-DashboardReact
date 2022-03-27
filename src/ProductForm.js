@@ -3,8 +3,9 @@ import React from "react";
 function ProductForm() {
   // create product detail form
   return (
+    
     <form>
-      <h1>Create Product Details</h1>
+      <h1 className="text-center">Create Product Details</h1>
       <div className="row mb-3">
         <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">
           Name :
